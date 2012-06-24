@@ -21,4 +21,9 @@
     [textField setStringValue:@"Generator seeded"];
 }
 
+- (void)awakeFromNib {
+    NSDate *now = [NSDate date];
+    [textField setObjectValue:now];
+}
+
 @end
