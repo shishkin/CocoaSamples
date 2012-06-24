@@ -13,6 +13,7 @@
 		B46D26E41597ACF0000F7C05 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B46D26E21597ACF0000F7C05 /* Credits.rtf */; };
 		B46D26E71597ACF0000F7C05 /* RandomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B46D26E61597ACF0000F7C05 /* RandomAppDelegate.m */; };
 		B46D26EA1597ACF1000F7C05 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46D26E81597ACF1000F7C05 /* MainMenu.xib */; };
+		B46D26F21597B8ED000F7C05 /* RandomController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46D26F11597B8ED000F7C05 /* RandomController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B46D26E51597ACF0000F7C05 /* RandomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomAppDelegate.h; sourceTree = "<group>"; };
 		B46D26E61597ACF0000F7C05 /* RandomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomAppDelegate.m; sourceTree = "<group>"; };
 		B46D26E91597ACF1000F7C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B46D26F01597B8ED000F7C05 /* RandomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomController.h; sourceTree = "<group>"; };
+		B46D26F11597B8ED000F7C05 /* RandomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B46D26E51597ACF0000F7C05 /* RandomAppDelegate.h */,
 				B46D26E61597ACF0000F7C05 /* RandomAppDelegate.m */,
 				B46D26E81597ACF1000F7C05 /* MainMenu.xib */,
+				B46D26F01597B8ED000F7C05 /* RandomController.h */,
+				B46D26F11597B8ED000F7C05 /* RandomController.m */,
 				B46D26DA1597ACF0000F7C05 /* Supporting Files */,
 			);
 			path = Random;
@@ -168,6 +173,7 @@
 			files = (
 				B46D26E01597ACF0000F7C05 /* main.m in Sources */,
 				B46D26E71597ACF0000F7C05 /* RandomAppDelegate.m in Sources */,
+				B46D26F21597B8ED000F7C05 /* RandomController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
