@@ -10,6 +10,7 @@
 		B425FA2D159CDAA300669634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B425FA2C159CDAA300669634 /* Foundation.framework */; };
 		B425FA30159CDAA300669634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B425FA2F159CDAA300669634 /* main.m */; };
 		B425FA34159CDAA300669634 /* lottery.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B425FA33159CDAA300669634 /* lottery.1 */; };
+		B425FA3C159D0D2300669634 /* LotteryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B425FA3B159D0D2300669634 /* LotteryEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		B425FA2F159CDAA300669634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B425FA32159CDAA300669634 /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = "<group>"; };
 		B425FA33159CDAA300669634 /* lottery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lottery.1; sourceTree = "<group>"; };
+		B425FA3A159D0D2300669634 /* LotteryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryEntry.h; sourceTree = "<group>"; };
+		B425FA3B159D0D2300669634 /* LotteryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				B425FA2F159CDAA300669634 /* main.m */,
+				B425FA3A159D0D2300669634 /* LotteryEntry.h */,
+				B425FA3B159D0D2300669634 /* LotteryEntry.m */,
 				B425FA33159CDAA300669634 /* lottery.1 */,
 				B425FA31159CDAA300669634 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B425FA30159CDAA300669634 /* main.m in Sources */,
+				B425FA3C159D0D2300669634 /* LotteryEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
