@@ -30,15 +30,12 @@ int main(int argc, const char * argv[])
             
             LotteryEntry *newEntry = [[LotteryEntry alloc] initWithEntryDate:iWeeksFromNow];
             [array addObject:newEntry];
-            [newEntry release];
         }
-        [now release];
         
         for (LotteryEntry *entry in array)
         {
             NSLog(@"%@", entry);
         }
-        [array release];
     }
     return 0;
 }
