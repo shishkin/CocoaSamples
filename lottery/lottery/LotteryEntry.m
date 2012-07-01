@@ -10,11 +10,17 @@
 
 @implementation LotteryEntry
 
+- (id)init
+{
+    return [self initWithEntryDate:[NSCalendarDate calendarDate]];
+}
+
 - (id)initWithEntryDate:(NSCalendarDate *)date
 {
     self = [super init];
     if (self)
     {
+        NSAssert(date != nil, @"date must be non-nil");
         entryDate = date;
         firstNumber = random() % 100 + 1;
         secondNumber = random() % 100 + 1;
