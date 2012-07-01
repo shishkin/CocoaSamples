@@ -201,6 +201,7 @@
 		B425FA38159CDAA300669634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lottery/lottery-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -210,6 +211,7 @@
 		B425FA39159CDAA300669634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lottery/lottery-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -235,6 +237,7 @@
 				B425FA39159CDAA300669634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
