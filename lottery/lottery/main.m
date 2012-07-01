@@ -29,8 +29,7 @@ int main(int argc, const char * argv[])
                 minutes:0
                 seconds:0];
             
-            LotteryEntry *newEntry = [[LotteryEntry alloc] init];
-            [newEntry setEntryDate:iWeeksFromNow];
+            LotteryEntry *newEntry = [[LotteryEntry alloc] initWithEntryDate:iWeeksFromNow];
             [array addObject:newEntry];
         }
         
