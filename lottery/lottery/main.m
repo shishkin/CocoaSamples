@@ -30,7 +30,6 @@ int main(int argc, const char * argv[])
                 seconds:0];
             
             LotteryEntry *newEntry = [[LotteryEntry alloc] init];
-            [newEntry prepareRandomNumbers];
             [newEntry setEntryDate:iWeeksFromNow];
             [array addObject:newEntry];
         }

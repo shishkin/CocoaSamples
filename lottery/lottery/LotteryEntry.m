@@ -10,10 +10,15 @@
 
 @implementation LotteryEntry
 
-- (void)prepareRandomNumbers
+- (id)init
 {
-    firstNumber = random() % 100 + 1;
-    secondNumber = random() % 100 + 1;
+    self = [super init];
+    if (self)
+    {
+        firstNumber = random() % 100 + 1;
+        secondNumber = random() % 100 + 1;
+    }
+    return self;
 }
 
 - (void)setEntryDate:(NSCalendarDate *)date
